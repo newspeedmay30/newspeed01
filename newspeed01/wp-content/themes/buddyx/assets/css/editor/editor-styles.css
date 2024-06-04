@@ -1,0 +1,14 @@
+@import url("../_elements.css");
+@import url("../_media.css");
+@import url("../_grid.css");
+button, select, option {color: inherit;font-family: inherit;font-size: inherit;line-height: inherit;border-radius: inherit;}
+.editor-post-title__input {font-size: 2.5rem;line-height: 1.4;margin-top: 0;margin-bottom: 0;}
+.gallery .gallery-item, .wp-block-freeform .gallery .gallery-item {width: auto;}
+.wp-block {max-width: calc(45rem + 30px);}
+.wp-block[data-align="wide"] {max-width: calc(50% + 45rem / 2 + 76px);}
+.wp-block[data-align="full"] {max-width: none;}
+.wp-block-cover h2, .wp-block-cover h3, .wp-block-cover h4 {color: inherit;}
+.wp-block-cover .wp-block-cover-text {font-size: 2em;line-height: 1.25;}
+.wp-block-archives, .wp-block-categories__list, .wp-block-latest-posts, .wp-block-latest-comments {margin-left: auto;margin-right: auto;}
+.wp-block-latest-comments {padding-left: 2.5em;padding-right: 2.5em;}
+.wp-block-image.is-style-buddyx-border img {border: 2px solid var(--color-theme-primary);border-radius: 5px;}
